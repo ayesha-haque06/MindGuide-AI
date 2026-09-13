@@ -2,9 +2,16 @@
 
 An interactive AI companion featuring sentiment awareness.
 
-* **Sentiment-Aware AI**: Delivers supportive, non-judgmental, and empathetic responses.
-* **Fast Inference**: Powered by the **Groq API** (`openai/gpt-oss-120b`).
-* **Frontend**: Built with **Streamlit** for real-time web interactions.
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend / UI** | Streamlit |
+| **LLM (chat)** | Groq API — `openai/gpt-oss-120b` |
+| **Speech-to-text** | Groq Whisper — `whisper-large-v3` |
+| **Conversation memory** | Session-based, managed in-app (Streamlit session state) |
+| **Safety / risk classification** | Prompt-based classification (L0–L3), handled by the LLM itself |
+| **Language** | Python |
 
 ## 👥 Hackathon Team
 
