@@ -8,7 +8,8 @@ An interactive AI companion featuring sentiment awareness.
 
 ## 👥 Hackathon Team
 
-* Built collaboratively by **Ayesha Haque** and team.
+This project was built and developed collaboratively as a joint effort by our 6-member hackathon team.
+
 
 
 ## Credits
